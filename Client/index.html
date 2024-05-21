@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<div class="MainProg">
+<head>
+  <title>List of Trains</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <div class="container">
+    <img src="train.png" alt="">
+  
+    <h1>Poizd & Schedule</h1>
+    <div class="search-container">
+      <h2 id="searchTitle">Пошук станції відправлення</h2>
+      <input type="text" id="searchInput" placeholder="Назва станції">
+      <button id="searchButton">Пошук</button>
+    </div>
+  </div>
+</head>
+<body>
+  <div class="container">
+    <button class="buttonTrainToday" id="buttonTrainTodayid"> Потяги які відправляються сьогодні </button> 
+    <button class="buttonReporstation" id="buttonReporstationid"> Погяги які їдуть зі Львову </button>
+    <button class="buttonReport" id="buttonReportid"> Погяги які в Київ </button>
+    <button class="buttontime" id="buttontimeid"> Найдовший і найшвидший по часу рейси </button>
+    <button class="buttonmaxstops" id="buttonmaxstopsid"> Топ 5 потягів з найбільшою кількість зупинок </button>
+    <table class="TableTrainList" id="TableTrainListid">
+
+      <thead>
+        <tr>
+          <th> <span class="Station" id="StationId"> Станція відправлення </span> </th>
+          <th> <span class="StationDestination" id="StationDestinationId"> Станція прибуття </span> </th>
+          <th> <span class="TrainName" id="TrainNameId"> Імя потягу</span> </th>
+          <th><span class="TrainNumber" id="TrainNumberId"> Номер потягу </span></th>
+          <th><span class="DataAndTime" id="DataAndTimeId"> Дата & час </span></th>
+          <th> <span class="StopCout" id="StopCoutId"> Кількість зупинок </span> </th>
+          <th> <span class="Duration" id="DurationId"> Час в шляху </span> </th>
+
+        </tr>
+      </thead>
+      <tbody>
+          <!-- <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+          </tr> -->
+      </tbody>
+    </table>
+    
+
+  </div>
+</body>
+</div>
+</html>

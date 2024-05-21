@@ -1,0 +1,129 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #0056b3;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+img {
+  width: 10%; /* Змініть це значення на те, яке вам підходить */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Container styling */
+.container {
+  max-width: 1200px;
+  margin: 1px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Headings styling */
+h1 {
+  color: #0056b3;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Search container styling */
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#searchTitle {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+#searchInput {
+  width: 25%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  width: calc(25% / 2 - 10px);
+  border: none;
+  background-color: #0056b3;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+  background-color: #003f8a;
+}
+
+/* Button styling */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+thead th {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Specific column styling */
+th, td {
+  text-align: center;
+}
+
+.Station, .StationDestination, .TrainName, .TrainNumber, .DataAndTime, .StopCout, .Duration {
+  display: block;
+  margin: auto;
+}
